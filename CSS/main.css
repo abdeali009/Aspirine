@@ -1,0 +1,40 @@
+h1{
+    color: white;
+}
+.bg{
+    background-color: #2dbe32;
+}
+.nav-item .nav-link{
+    display: block;
+    font-size: 28px;
+    color: white;
+    -webkit-transition: font-size 0.5s;
+    transition: font-size 0.5s;
+}
+.nav-item .nav-link:hover{
+    font-size:30px;
+}
+
+.nv2{
+    display: none;
+    margin: auto;
+    width: 18px;
+    border: 1px solid white;
+}
+.nav-bt{
+    display:none;
+    padding: 0px;
+    background-color:transparent; 
+    border:1px solid white;
+    height: 40px;
+    width: 50px;
+    border-radius: 3px;
+}
+@media only screen and (max-width:600px){
+    .nv2{
+        display: block;
+    }
+    .nav-bt{
+        display:block;
+    }
+}
